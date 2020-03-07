@@ -1,0 +1,65 @@
+{
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "window.zoomLevel": 0,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Jetbrains Mono, Sarabun",
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "office code pro, Bai Jamjuree",
+  "git.autofetch": true,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    "*.tpl": "html",
+    "*.master": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "html": "cshtml"
+  },
+  "git.confirmSync": false,
+  "workbench.sideBar.location": "left",
+  "workbench.activityBar.visible": true,
+  "editor.formatOnSave": true,
+  "php.suggest.basic": false,
+  "editor.dragAndDrop": false,
+  "editor.fontLigatures": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.formatOnPaste": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 3px",
+          "borderStyle": "solid",
+          "borderColor": "green",
+          "borderRadius": "5px"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 3px 0 0",
+          "borderStyle": "solid",
+          "borderColor": "green",
+          "borderRadius": "5px"
+        }
+      }
+    }
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 12,
+  "workbench.iconTheme": "vscode-icons-mac",
+  "editor.lineHeight": 24,
+  "todo-tree.tree.showScanModeButton": false
+}
