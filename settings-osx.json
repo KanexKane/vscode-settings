@@ -1,0 +1,35 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "todo-tree.tree.showScanModeButton": false,
+  "editor.fontSize": 15,
+  "window.zoomLevel": 1,
+  "outline.showArrays": false,
+  "outline.showBooleans": false,
+  "outline.showConstants": false,
+  "outline.showEnumMembers": false,
+  "outline.showEnums": false,
+  "outline.showInterfaces": false,
+  "outline.showObjects": false,
+  "outline.showOperators": false,
+  "outline.showVariables": false,
+  "outline.showProperties": false,
+  "workbench.colorTheme": "Dracula",
+  "editor.codeActionsOnSave": null,
+  "editor.formatOnSave": true,
+  "editor.dragAndDrop": false,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "php.suggest.basic": false,
+  "editor.fontFamily": "Menlo, Monaco, Sarabun, 'Courier New', monospace",
+  "git.confirmSync": false,
+  "git.autofetch": true
+}
