@@ -1,18 +1,8 @@
-Apache Conf
-
-Apache Conf Snippets
-
 Auto Rename Tag
-
-Better Comments
-
-Bear Theme
 
 Bracket Pair Colorizer 2
 
 DotENV
-
-Dracula Official
 
 Easy Compile
 
@@ -34,16 +24,22 @@ open in browser
 
 Path Autocomplete
 
-PHP DocBlocker
-
-PHP Intelephense
-
 Prettier - Code formatter
 
 SFTP
 
-TabNine
-
 vscode-icons
 
 vscode-styled-components
+
+Prisma
+
+Tokyo Night
+
+npm Intellisense
+
+Tailwind CSS IntelliSense
+
+TypeScript Vue Plugin (Volar)
+
+Vim Theme

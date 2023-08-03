@@ -1,35 +1,91 @@
 {
-  "workbench.iconTheme": "vscode-icons",
-  "todo-tree.tree.showScanModeButton": false,
-  "editor.fontSize": 15,
-  "window.zoomLevel": 1,
-  "outline.showArrays": false,
-  "outline.showBooleans": false,
-  "outline.showConstants": false,
-  "outline.showEnumMembers": false,
-  "outline.showEnums": false,
-  "outline.showInterfaces": false,
-  "outline.showObjects": false,
-  "outline.showOperators": false,
-  "outline.showVariables": false,
-  "outline.showProperties": false,
-  "workbench.colorTheme": "Dracula",
-  "editor.codeActionsOnSave": null,
+  "css.lint.unknownAtRules": "ignore",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Martian Mono,\"Google Sans 18pt\", monospace",
   "editor.formatOnSave": true,
-  "editor.dragAndDrop": false,
-  "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 140,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    // "source.fixAll": true,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "editor.tabSize": 2,
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "edge": "html",
+    "javascript": "javascriptreact",
+    "vue-html": "html"
   },
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "prettier.jsxSingleQuote": true,
+  "explorer.compactFolders": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.singleQuote": true,
-  "php.suggest.basic": false,
-  "editor.fontFamily": "Menlo, Monaco, Sarabun, 'Courier New', monospace",
+  "prettier.singleAttributePerLine": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "typescript.suggest.paths": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "debug.console.fontSize": 16,
   "git.confirmSync": false,
-  "git.autofetch": true
+  "git.autofetch": true,
+  "terminal.integrated.fontSize": 14,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "open-in-browser.default": "chrome",
+  "workbench.tree.indent": 16,
+  "sftp.debug": true,
+  "sftp.printDebugLog": true,
+  "workbench.iconTheme": "vscode-icons",
+  "[blade]": {
+    "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "vite.autoStart": false,
+  "breadcrumbs.enabled": false,
+
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove",
+
+  "workbench.colorCustomizations": {
+    // "editor.background": "#fff7e7"
+    // "editor.background": "#E9E9E9"
+  },
+  "editor.tokenColorCustomizations": {
+    // "comments": "#E590E0"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "debug.console.wordWrap": false,
+  "editor.fontLigatures": false,
+  "svelte.enable-ts-plugin": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "php.validate.executablePath": "",
+  "window.zoomLevel": 1,
+  "update.showReleaseNotes": false,
+  "dart.flutterCreateOrganization": "com.kanexkane",
+  "diffEditor.wordWrap": "on",
+  "dart.showInspectorNotificationsForWidgetErrors": false,
+  "editor.wordWrap": "bounded",
+  "editor.minimap.enabled": false,
+  "debug.console.fontFamily": "",
+  "scm.inputFontFamily": "",
+  "workbench.colorTheme": "Vim Deep Dark"
 }
